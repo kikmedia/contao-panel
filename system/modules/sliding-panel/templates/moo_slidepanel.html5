@@ -1,3 +1,4 @@
+<!-- panel slider -->
 <script>
 window.addEvent('domready', function(){
 
