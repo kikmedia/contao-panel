@@ -1,0 +1,102 @@
+/* Name: Nice Login and Signup Panel using Mootools 1.2 Tutorial URI:
+http://web-kreation.com/demos/login_form_mootools_1.2/ Author: Jeremie
+Tisseau Author URI: http://web-kreation.com/ Date: August 2008 The CSS,
+XHTML and design is released under Creative C */
+html,
+body
+{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body
+{
+    width:100%;
+    min-width:970px;
+    line-height:130%;
+    font: 85%/0.9 arial, helvetica, sans-serif;
+    background: url(/tl_files/themes/standardtheme/images_slider/bg_repeat.jpg) repeat 0 0;
+}
+
+a
+{
+    text-decoration:none;
+    color:#0099CC;
+}
+
+a:hover
+{
+    color:#00CCFF;
+}
+
+a img
+{
+    border: none;
+    /*remove border for linked images*/;
+}
+
+/** clear **/
+.clear
+{
+    height:0;
+    clear:both;
+    line-height:0;
+}
+
+.clearfix:after
+{
+    height:0;
+    clear:both;
+    display:block;
+    content: ".";
+    visibility: hidden;
+}
+
+.clearfix
+{
+    display:inline-block;
+}
+
+
+/* Hides from IE-mac \ */
+* html .clearfix
+{
+    height:1%;
+}
+
+.clearfix
+{
+    display:block;
+}
+
+
+/* End hide from IE-mac */
+.clearfix
+{
+    height:1%;
+}
+
+.clearfix
+{
+    display:block;
+}
+
+/** Main Layout **/
+
+/* End hide from IE-mac */
+#container
+{
+    width:100%;
+    height:100%;
+    text-align:center;
+    /* IE fix to center the page */;
+}
+
+#content
+{
+    width:900px;
+    margin:0 auto;
+    padding:20px;
+    /* center the page in Firefox */    text-align: left;
+}

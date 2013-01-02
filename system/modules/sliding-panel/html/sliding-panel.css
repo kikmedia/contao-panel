@@ -1,0 +1,176 @@
+
+/* Login Panel */
+#top
+{
+    height:38px;
+    position:relative;
+    background: url(/tl_files/themes/standardtheme/images_slider/login_top.jpg) repeat-x 0 0;
+}
+
+#top ul.login
+{
+    width:auto;
+    height:38px;
+    right:150px;
+    position:relative;
+    float:right;
+    clear:right;
+    display:block;
+    margin:0;
+    padding-right:45px;
+    text-align:center;
+    font-size:80%;
+    line-height:38px;
+    font-weight:bold;
+    color: #ff0000;
+    background: url(/tl_files/themes/standardtheme/images_slider/login_r.jpg) no-repeat right 0;
+}
+
+#top ul.login li.left
+{
+    width:45px;
+    height:38px;
+    float:left;
+    display:block;
+    margin:0;
+    padding:0;
+    background: url(/tl_files/themes/standardtheme/images_slider/login_l.jpg) no-repeat left 0;
+}
+
+#top ul.login li
+{
+    height:38px;
+    float:left;
+    display:block;
+    padding:0 6px;
+    text-align:left;
+    background: url(/tl_files/themes/standardtheme/images_slider/login_m.jpg) repeat-x 0 0;
+}
+
+#top ul.login li a
+{
+    color:#33CCCC;
+}
+
+#top ul.login li a:hover
+{
+    color: white;
+}
+
+
+/* toggle effect - show/hide login */
+#login
+{
+    width:100%;
+    height:0;
+    position:relative;
+    overflow:hidden;
+    color: white;
+    background: #1E1E1E;
+    z-index: 3;
+}
+
+#login a
+{
+    text-decoration:none;
+    color:#33CCCC;
+}
+
+#login a:hover
+{
+    color: white;
+}
+
+#login .loginContent
+{
+    width:550px;
+    height:80px;
+    margin:0 auto;
+    padding-top:25px;
+    text-align:left;
+    font-size:0.85em;
+}
+
+#login .loginContent .left
+{
+    width:120px;
+    float:left;
+    padding-left:65px;
+    font-size:0.95em;
+}
+
+#login .loginContent .right
+{
+    width:290px;
+    float:right;
+    padding-right:65px;
+    text-align:right;
+    font-size:0.95em;
+}
+
+#login .loginContent form
+{
+    height:26px;
+    margin:0 0 10px;
+}
+
+#login .loginContent input.field
+{
+    height:16px;
+    margin-top:4px;
+    margin-right:5px;
+    border:1px #1A1A1A #solid;
+    background: #464646;
+    color: white;
+}
+
+#login .loginContent input:focus.field
+{
+    background: #545454;
+}
+
+#login .loginContent input.rememberme
+{
+    margin:0;
+    padding:0;
+    border: none;
+    background: transparent;
+}
+
+#login .loginContent input.button_login
+{
+    width:47px;
+    height:20px;
+    cursor: pointer;
+    border: none;
+    background: transparent url(/tl_files/themes/standardtheme/images_slider/button_login.jpg) no-repeat 0 0;
+}
+
+#login .loginClose
+{
+    width:70px;
+    right:15px;
+    position:absolute;
+    display:block;
+    text-align:left;
+    font-size:0.8em;
+    top: 10px;
+}
+
+#login .loginClose a
+{
+    width:100%;
+    height:20px;
+    display:block;
+    padding-right:10px;
+    font-size:0.9em;
+    background: url(/tl_files/themes/standardtheme/images_slider/button_close.jpg) no-repeat right 0;
+    border: none;
+    color: white;
+}
+
+#login .loginClose a:hover
+{
+    background: url(/tl_files/themes/standardtheme/images_slider/button_close.jpg) no-repeat right -20px;
+}
+
